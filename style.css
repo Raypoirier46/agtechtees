@@ -3,6 +3,26 @@ body {
     background: #ffffff
 }
 
+.zone {
+    /*padding:30px 50px;*/
+    /*cursor:pointer;*/
+    color:#FFF;
+    font-size:1.5em;
+    border-radius:4px;
+    /* border:1px solid #bbb; */
+    transition: all 0.3s linear;
+}
+
+.zone {
+    /*padding:30px 50px;*/
+    /*cursor:pointer;*/
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
 /***********************************************************************
  *  Nav Bar
  **********************************************************************/
@@ -43,4 +63,30 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+/***********************************************************************
+ *  Grid Panel
+ **********************************************************************/
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.box {
+    /* background-color: rgb(211, 211, 211); */
+    padding: 130px;
+    margin: 20px;
+}
+
+.box > img {
+    width: 100%;
+}
+
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+footer {
+    text-align: center;
+    background: #4d4d4d
 }
