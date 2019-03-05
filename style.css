@@ -1,3 +1,35 @@
 body {
-    margin: 0px
+    margin: 0px;
+    background: #ffffff
+}
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 1em;
+    background: #4d4d4d
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: #fbff00;
+    text-decoration: none;
 }
