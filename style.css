@@ -33,3 +33,14 @@ a {
     color: #fbff00;
     text-decoration: none;
 }
+
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+.container {
+    /*show heigh: auto*/
+    /* height: 50vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
