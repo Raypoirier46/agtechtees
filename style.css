@@ -4,15 +4,11 @@ body {
      font-family: "PT Serif",serif;
 }
 
-/* .zone {
-    /*padding:30px 50px;*/
-    /*cursor:pointer;*/
-    /* color:#FFF;
-    font-size:1.5em; */
-    /* border-radius:4px;
-    border:1px solid rgb(0, 0, 0);
-    transition: all 0.3s linear;
-} */
+.footer {
+    font-size:1.5em;
+    font-family: "Source Sans Pro",sans-serif;
+    
+} 
 
 .box:hover {
     cursor: pointer;
