@@ -1,17 +1,24 @@
 body {
     margin: 0px;
-    background: #ffffff;
+    background: #a5a5a5;
      font-family: "PT Serif",serif;
 }
 
-.zone {
+/* .zone {
     /*padding:30px 50px;*/
     /*cursor:pointer;*/
-    color:#FFF;
-    font-size:1.5em;
-    border-radius:4px;
-    /* border:1px solid #bbb; */
+    /* color:#FFF;
+    font-size:1.5em; */
+    /* border-radius:4px;
+    border:1px solid rgb(0, 0, 0);
     transition: all 0.3s linear;
+} */
+
+.box:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
 /***********************************************************************
@@ -21,7 +28,7 @@ body {
     display: flex;
     list-style: none;
     margin: 0;
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: "Source Sans Pro",sans-serif;
     background: #4d4d4d;
     position: fixed;
@@ -59,7 +66,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 67px;
+    margin-top: 75px;
 }
 /***********************************************************************
  *  Grid Panel
@@ -71,9 +78,12 @@ a {
 }
 
 .box {
-    /* background-color: rgb(211, 211, 211); */
+    border-radius:4px;
+    border:1px solid rgb(0, 0, 0);
+    transition: all 0.3s linear;
     padding: 20px;
     margin: 20px;
+    background: white;
 }
 
 .box > img {
